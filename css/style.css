@@ -238,12 +238,13 @@ body {
 
 /* FOOTER */
 
-.margin-bottom {
-    margin-bottom: 1px solid #7289DA;
+.border-bottom {
+    border-bottom: 1px solid #7289DA50;
 }
 
-
-
+.margin15 {
+    margin: 15px 0;
+}
 
 /* DEBUG */
 
