@@ -208,6 +208,10 @@ body {
     filter: invert(100%) sepia(9%) saturate(260%) hue-rotate(220deg) brightness(117%) contrast(93%);
 }
 
+.filter-white {
+    filter: invert(100%) sepia(0%) saturate(7483%) hue-rotate(44deg) brightness(103%) contrast(100%);
+}
+
 
 /* DEBUG */
 
