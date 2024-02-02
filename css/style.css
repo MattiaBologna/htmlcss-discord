@@ -17,6 +17,11 @@ menu {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: currentColor;
+}
+
 
 
 /* LAYOUT */
@@ -29,6 +34,11 @@ menu {
 
 .row {
     display: flex;
+    flex-wrap: wrap;
+}
+
+.nav {
+    padding: 10px;
 }
 
 
@@ -60,12 +70,25 @@ menu {
 
 /* STYLE */
 
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.login-button {
+    color: black;
+    background-color: white;
+    border-radius: 40px;
+    padding: 7px 16px;
+    line-height: 42px;
+}
+
 .bg-lightblue {
     background-color: #ADD8E6;
 }
 
 .bg-blue {
-    background-color: #1E90FF;
+    background-color: #3161E0;
 }
 
 .bg-purple {
@@ -100,7 +123,33 @@ menu {
     background-color: #23272A;
 }
 
+.white-text {
+    color: white;
+}
+
+.bold-text {
+    font-weight: 600;
+}
+
+
+/* UTILITIES */
+
 .justify-between {
+    justify-content: space-between;
+}
+
+
+/* PAGE HEADER */
+
+.nav .main-menu{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 10px;
+}
+
+
+.nav .row {
     justify-content: space-between;
 }
 
@@ -115,15 +164,11 @@ menu {
 .debug .row {
     border: 2px solid black;
     padding: 20px;
-}
+} 
 
 .debug [class^="col"] {
     border: 1px dotted red;
     padding: 10px;
-}
-
-.debug header .row [class^="col"] {
-    background-color: #DAA520;
 }
 
 .debug .min-height {
