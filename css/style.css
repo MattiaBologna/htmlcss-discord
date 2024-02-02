@@ -37,6 +37,10 @@ a {
     margin: 0 auto;
 }
 
+.container-full {
+    width: 100vw;
+}
+
 .row {
     display: flex;
     flex-wrap: wrap;
