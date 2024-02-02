@@ -147,6 +147,10 @@ body {
     color: white;
 }
 
+.blue-text {
+    color: #7289DA;
+}
+
 .bold-text {
     font-weight: 700;
 }
@@ -172,6 +176,11 @@ body {
 
 .black-text {
     color: #23272A;
+}
+
+.ita-flag {
+    display: inline-block;
+    height: 10px;
 }
 
 
@@ -224,6 +233,16 @@ body {
 .button-width {
     margin: 0 25%;
 }
+
+
+
+/* FOOTER */
+
+.margin-bottom {
+    margin-bottom: 1px solid #7289DA;
+}
+
+
 
 
 /* DEBUG */
