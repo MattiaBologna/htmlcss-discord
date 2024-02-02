@@ -128,7 +128,7 @@ body {
 }
 
 .bg-lightgrey{
-    background-color: #D3D3D3;
+    background-color: #F6F6F6;
 }
 
 .bg-red{
@@ -193,8 +193,19 @@ body {
     line-height: 42px;
 }
 
+/* MAIN CONTENT */
+
 .bg-jumbo {
     background-image: url('https://github.com/MattiaBologna/htmlcss-discord/blob/6374bd445198d79be30240952c9e82c2f99ddf98/img/jumbo.png?raw=true');
+    background-size: cover;
+}
+
+.wave {
+    width: 100%;
+}
+
+.filter-grey {
+    filter: invert(100%) sepia(9%) saturate(260%) hue-rotate(220deg) brightness(117%) contrast(93%);
 }
 
 
