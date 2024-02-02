@@ -244,7 +244,7 @@ body {
 }
 
 .bg-stars {
-    background-image: url('https://github.com/MattiaBologna/htmlcss-discord/blob/6374bd445198d79be30240952c9e82c2f99ddf98/img/stars.svg');
+    background-image: url('.\./img/stars.svg');
     background-size: cover;
 }
 
@@ -269,6 +269,7 @@ body {
     margin: 15px 15px;
     filter: invert(100%) sepia(0%) saturate(7483%) hue-rotate(44deg) brightness(103%) contrast(100%);
 }
+
 
 /* DEBUG */
 
