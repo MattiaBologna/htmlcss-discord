@@ -162,6 +162,9 @@ body {
     justify-content: space-between;
 } 
 
+.padding20{
+    padding: 20px;
+}
 
 
 /* PAGE HEADER */
