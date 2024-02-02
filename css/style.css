@@ -99,10 +99,6 @@ body {
     font-size: 20px;
 }
 
-.bg-jumbo {
-    background-image: url('.\img/jumbo.png');
-}
-
 .bg-blue {
     background-color: #3161E0;
 }
@@ -166,6 +162,14 @@ body {
     padding: 20px;
 }
 
+.row-reverse {
+    flex-direction: row-reverse;
+}
+
+.black-text {
+    color: #23272A;
+}
+
 
 /* PAGE HEADER */
 
@@ -187,6 +191,10 @@ body {
     border-radius: 40px;
     padding: 7px 16px;
     line-height: 42px;
+}
+
+.bg-jumbo {
+    background-image: url('https://github.com/MattiaBologna/htmlcss-discord/blob/6374bd445198d79be30240952c9e82c2f99ddf98/img/jumbo.png?raw=true');
 }
 
 
