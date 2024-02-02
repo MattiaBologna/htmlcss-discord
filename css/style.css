@@ -183,12 +183,15 @@ body {
 }
 
 .ita-flag {
-    display: inline-block;
-    height: 10px;
+    height: 20px;
 }
 
 .display-block {
     display: block;
+}
+
+.display-inlineblock {
+    display: inline-block;
 }
 
 /* PAGE HEADER */
@@ -251,6 +254,12 @@ body {
 
 .margin15 {
     margin: 15px 0;
+}
+
+.social-logo {
+    height: 30px;
+    margin: 15px 15px;
+    filter: invert(100%) sepia(0%) saturate(7483%) hue-rotate(44deg) brightness(103%) contrast(100%);
 }
 
 /* DEBUG */
